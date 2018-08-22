@@ -1,4 +1,7 @@
 <style>
+  * {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
   form{
     display: block;
     height: 400px;
@@ -49,7 +52,9 @@ progress{
 </style>
 
 <template>
+  
   <div id="file-drag-drop">
+    <h1>Upload Files with Vue and Axios</h1>
     <form ref="fileform">
         <span class="drop-files">Drop the files here!</span>
     </form>
